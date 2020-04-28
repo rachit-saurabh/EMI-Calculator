@@ -40,6 +40,11 @@ public class EmiCalculator {
 		Thread.sleep(5000);
 	}
 	
+	@Test
+	public void HomeLoan() {
+		System.out.println("Home Lone");
+	}
+	
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
